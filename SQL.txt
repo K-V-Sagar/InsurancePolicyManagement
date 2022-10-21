@@ -1,0 +1,22 @@
+// Delete from User, used for testing during backend development
+
+use insurance;
+set sql_safe_updates=0;
+delete from user where user_id=7;
+select * from user;
+
+
+// Insert into User, used for testing during backend development
+
+use insurance;
+insert into user values(5,'BLR','mail','user','password','9123456789',null);
+select * from user;
+
+
+// Query used to implement view available policies 
+
+SELECT * FROM Policy WHERE user_id = 0
+
+// Query used to implement view user History
+
+SELECT * FROM Policy WHERE user_id = ?1 

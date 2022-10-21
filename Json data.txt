@@ -1,0 +1,25 @@
+// CREATE POLICY
+
+{   
+    "approval":2,
+    "policyNum":"12345",
+    "policyType":"Travel",
+    "userId":4
+}
+
+
+
+// CREATE USER
+{
+    "email": "avranj.k@gmail.com",
+    "password": "123klo@",
+    "name": "vedprakash",
+    "address": "delhi,lokplaza",
+    "phoneNum": "987098"
+}
+
+//CREATE Question
+{   
+    "userId":5,
+    "query":"Is banana a fruit?"
+}
